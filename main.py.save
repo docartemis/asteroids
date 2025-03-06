@@ -6,7 +6,7 @@ install(show_locals=True)
 from rich import print as rprint
 
 
-# import contents of other modules and files
+# import contents of other modules and files. sys includes sys.exit(), which terminates the program
 import pygame
 import random
 import sys
@@ -15,7 +15,6 @@ from player import Player
 from asteroid import Asteroid  
 from asteroidfield import AsteroidField  
 from shot import Shot
-
 
 
 def main():
